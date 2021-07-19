@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "firstname": "Prasad ",
+      "lastname": "patil",
+      "userid": "prasad123",
+      "email": "prasadpatil@gmail.com",
+      "password": "123457"
+    },
+    {
+      "firstname": "Baburao",
+      "lastname": "Apte",
+      "userid": "babubhaiya123",
+      "email": "baburao420@gmail.com",
+      "password": "Baburao@123",
+      "id": 7
+    },
+    {
+      "firstname": "Subhashish",
+      "lastname": "Dash",
+      "userid": "subu234",
+      "email": "subu34@gmail.com",
+      "password": "Subu@123",
+      "id": 8
+    },
+    {
+      "firstname": "Sagar",
+      "lastname": "sagar234",
+      "userid": "sagar234",
+      "email": "sagar34@gmail.com",
+      "password": "Sagar123",
+      "id": 9
+    },
+    {
+      "firstname": "Sachin ",
+      "lastname": "Tendulkar",
+      "userid": "sachi234",
+      "email": "sachin42@gmail.com",
+      "password": "Sachin@345",
+      "id": 10
+    },
+    {
+      "firstname": "Rajat",
+      "lastname": "Kumar",
+      "userid": "rsrk",
+      "email": "ravishsharma@gmail.com",
+      "password": "Rj123",
+      "id": 11
+    },
+    {
+      "firstname": "Anupsing",
+      "lastname": "Thakur",
+      "userid": "anup23",
+      "email": "anup23@gmail.com",
+      "password": "Anup@123",
+      "id": 12
+    }
+  ]
+}
