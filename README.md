@@ -16,55 +16,30 @@ You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Title-
 
-### `yarn build`
+Creole Studios Machine Test
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Status -
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Complete -1) Log-In Authentication Completed with default with Default user and Registered users. 2) List of the Users are displayed , which is stored in db.json file. 3) User can View , Edit and Delete the user details . 5) When we want to delete using notification the Delete not Work 6) Not Found page Added , if user enter worng page request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installation -
 
-### `yarn eject`
+1- We need node to create and run React project Install - npm install-g create-react-app create-react-app app-name
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Use npm or Yarn (We use yarn)
+Other Modules we required - npm install react-router-dom / yarn add react-router-dom npm install react-bootstrap / yarn add react-bootstrap npm install react-modal / yarn add react-modal npm i react-toastify / yarn add react-toastify npm install json-server / yarn add json-server ( To store the Data )
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project Screeshots -
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+              ![Home Page with login](https://user-images.githubusercontent.com/68418436/126146156-4379b96a-02c6-4f6d-8ec8-8778a765d722.png)
+              
+              ![SignUp-1](https://user-images.githubusercontent.com/68418436/126146440-6b225db5-bba9-4aae-869f-d4605af9c3b7.png)
+To Start json Server- After creating project with create-react-app and run npm start command Run Json server with set json-server --watch 'path/db.json' --port 3004 ( Add this command to package.json file ) run - npm run json-server comand to start json server
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This task took 2 days to complete , the main goals i achieve in this task is - 1) user authentication with login with default user and registered user and also perform the crud operation on the list of the users .
 
-## Learn More
+I started with adding navbar to react-router for routing between pages , tostify and react-modal are the new features are used in the apllication , i used bootstrap to design web page. the main challenge which i faced is user authentication for login, it took 1 day to compelete this task but the Redirect function still cant work after login sucessfully. I also add beautiful not page found file in the project for wrong routing or request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To delete the record from the list -please remove comments from 1st delete link in ListUser.js file and add comment on 2nd delete link in ListUser.jsx file.
